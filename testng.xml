@@ -2,9 +2,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true"
-          name="LearningAPIautomation11x">
+          name="RA_task/APITesting01_RA.java">
         <classes>
-            <class name="com.thetestingacademy.ex_02_TestNG_AllureReoprt.ApiTesting_lab003">
+            <class name="com.thetestingacademy.RA_task.APITesting01_RA">
 
             </class>
         </classes>
