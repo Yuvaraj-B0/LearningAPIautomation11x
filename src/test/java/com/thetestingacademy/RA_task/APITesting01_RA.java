@@ -44,6 +44,7 @@ public class APITesting01_RA {
      //   System.out.println(token);
 
     }
+    @Owner("Yuvaraj")
     @Severity(SeverityLevel.NORMAL)
     @Description("TC#2 - Verify that the Create Booking")
     @Test(priority = 2)
@@ -83,6 +84,7 @@ public class APITesting01_RA {
        // vr.body("bookingid", Matchers.notNullValue());
 
     }
+    @Owner("Yuvaraj")
     @Severity(SeverityLevel.NORMAL)
     @Description("TC#3 - Verify Get Booking with bookingid")
     @Test(priority = 3)
@@ -104,6 +106,7 @@ public class APITesting01_RA {
         vr.body("depositpaid", Matchers.equalTo(true));
        // vr.body("bookingid", Matchers.notNullValue());
     }
+    @Owner("Yuvaraj")
     @Severity(SeverityLevel.NORMAL)
     @Description("TC#4 - Verify Update booking")
     @Test(priority = 4)
@@ -136,6 +139,7 @@ public class APITesting01_RA {
         Allure.addAttachment("API Response", "application/json", responseBody, ".json");
 
     }
+    @Owner("Yuvaraj")
     @Severity(SeverityLevel.NORMAL)
     @Description("TC#1 - Verify Partial update")
     @Test(priority = 5)
@@ -163,7 +167,7 @@ public class APITesting01_RA {
 
 
     }
-
+    @Owner("Yuvaraj")
     @Severity(SeverityLevel.NORMAL)
     @Description("TC#1 - Verify delete booking")
     @Test(priority = 6)
